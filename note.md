@@ -67,3 +67,19 @@ Important
 - db.<>.updateMany({<key>:<value>}, {$set: {<key>:<value>}})
   - $set
   - $currentDate: {lastModified: true}
+- db.<>.replaceOne()
+
+# Delete
+- db.<>.deleteOne(<key>: <value>)
+
+# Additional Operators
+- db.<>.find({"<level1Key>.<level2Key>" : <value>, <...>:<...>})
+- $eq   -> equal
+- $gt   ->
+- $gte  ->
+- $in   -> in array {<key> : [<val1>, <val2>]}
+- $lt   ->
+- $lte  ->
+- $ne   -> not equal
+- $nin  -> not in array <>
+- $or   -> ({<condition1>},{<condition2>})
